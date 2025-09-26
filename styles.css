@@ -1,1 +1,42 @@
 /*  your css code here. If applicable */
+.container{
+	display:flex;
+	
+	margin:50px auto;
+	justify-content:center;
+	align-items:center;
+}
+.btns{
+	display:flex;
+	justify-content:center;
+	gap:10px;
+}
+button{
+	border:none;
+	height:40px;
+	width:90px;
+	border-radius:6px;
+	font-size:15px;
+	color:white;
+	background-color:#318CE7;
+}
+.circle{
+	width:40px;
+	height:40px;
+	color:#C0C0C0;
+	border:6px solid #C0C0C0;
+	border-radius:50%;
+    text-align:center;
+	align-content:center;
+}
+.line{
+	width:30px;
+	height:0;
+	border:3px solid #C0C0C0;
+}
+.active{
+	border:6px solid #318CE7;
+}
+.active-line{
+	border:3px solid #318CE7;
+}
