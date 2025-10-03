@@ -32,7 +32,9 @@ btn1.addEventListener("click", () => {
     circle[i].classList.add("active");
     line[i - 1].classList.add("active-line");
 	  // line between prev and current
+	  
   }
+	
   console.log("Next clicked, i =", i);
 });
 
