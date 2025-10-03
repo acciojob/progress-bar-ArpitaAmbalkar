@@ -39,6 +39,7 @@ btn1.addEventListener("click", () => {
 });
 
 btn2.addEventListener("click", () => {
+
   if (i > 0) {
     circle[i].classList.remove("active");
     line[i - 1].classList.remove("active-line");
@@ -46,3 +47,5 @@ btn2.addEventListener("click", () => {
   }
   console.log("Prev clicked, i =", i);
 });
+btn1.disabled=i===1;
+btn2.disabled=i===circle.length-1;
