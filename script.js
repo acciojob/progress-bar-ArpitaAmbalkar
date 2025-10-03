@@ -48,4 +48,4 @@ btn2.addEventListener("click", () => {
   console.log("Prev clicked, i =", i);
 });
 btn1.disabled=i===1;
-btn2.disabled=i===circle.length-1;
+btn2.disabled=i===circle.length;
