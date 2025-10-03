@@ -1,7 +1,6 @@
 /*  your css code here. If applicable */
 .container{
 	display:flex;
-	
 	margin:50px auto;
 	justify-content:center;
 	align-items:center;
@@ -18,7 +17,7 @@ button{
 	border-radius:6px;
 	font-size:15px;
 	color:white;
-	background-color:#318CE7;
+	background-color:#0047AB;
 }
 .circle{
 	width:40px;
